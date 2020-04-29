@@ -5,7 +5,7 @@ import Button from "dijit/form/Button";
 import TextBox from "dijit/form/TextBox";
 
 export default declare([_WidgetBase], {
-    nameInput: undefined as TextBox,
+    nameInput: undefined as TextBox | undefined,
     onChange: function (name: string) {
         return true;
     },
