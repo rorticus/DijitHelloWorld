@@ -11,7 +11,8 @@
     "module": "amd",
     "outDir": "build/src/demo/",
     "removeComments": false,
-    "target": "es5"
+    "target": "es5",
+    "noImplicitThis": true
   },
   "include": [
     "./node_modules/dojo-typings/dojo/1.11/modules.d.ts",
