@@ -9,7 +9,8 @@
   "author": "Neil Roberts",
   "license": "ISC",
   "devDependencies": {
-    "dojo-typings": "^1.11.9",
-    "http-server": "^0.12.1"
+    "dojo-typings": "1.11.10",
+    "http-server": "^0.12.1",
+    "typescript": "^3.8.3"
   }
 }
